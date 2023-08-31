@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className=''> 
     <nav className='nav-bar-items'>
-        <h1>Plaralistic</h1>
+        <h1>Pluralistic</h1>
         <img src={logo} className='logo' alt="logo"></img>
         <ul className='nav-menu'>
         {MenuData.map((item, index) =>{
