@@ -4,7 +4,7 @@ import logo from '../assets/img20pl.svg';
 import { MenuData } from './MenuData';
 const Navbar = () => {
   return (
-    <div className='nav'> 
+    <div className=''> 
     <nav className='nav-bar-items'>
         <h1>Plaralistic</h1>
         <img src={logo} className='logo' alt="logo"></img>
