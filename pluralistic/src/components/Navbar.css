@@ -19,12 +19,13 @@
   } */
   .nav-menu{
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     grid-gap: 2px;
     list-style: none;
     align-items: center;
     text-align: center;
-    justify-content: flex-end;
+    justify-content: end;
+    /* padding:0 50% 0 0; */
   }
   .nav-bar-items{
     display: flex;
@@ -47,8 +48,9 @@
   .nav-links{
     text-decoration: none;
     color:black;
-    padding: 0.7rem 1rem;
+    padding: 0.2rem 0.2rem;
     white-space: nowrap;
+    
   }
   
   .nav-links i{

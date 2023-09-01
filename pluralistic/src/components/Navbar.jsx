@@ -14,7 +14,7 @@ const Navbar = () => {
 
             <li key={index}>
                 <a href={item.url}
-                className={item.cName}>{item.title}</a>
+                className={item.cName}>{item.i}{item.title}</a>
                
             </li>
             )
