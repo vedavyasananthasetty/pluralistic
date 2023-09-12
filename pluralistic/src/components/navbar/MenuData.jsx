@@ -8,20 +8,20 @@ export const MenuData =[
     {
         title:"Home",
         url:"#",
-        cName:"nav-links",
+        
         i:<HouseIcon/>,
 
     },
     {
         title:"About Us",
         url:"#",
-        cName:"nav-links",
+        
 
     },
     {
         title:"Contact",
         url:"#",
-        cName:"nav-links",
+        
         i:<ContactMailIcon />
         
 
@@ -29,21 +29,21 @@ export const MenuData =[
     {
         title:"Seller LogIn",
         url:"#",
-        cName:"nav-links",
+    
         i:<StorefrontIcon/>
 
     },
     {
         title:"Sign Up",
         url:"#",
-        cName:"nav-links",
+        
         i:<AssignmentIndIcon />
 
     },
     {
-        title:"",
+        title:"Cart",
         url:"#",
-        cName:"nav-links",
+        
         i: <AddShoppingCartIcon/>
 
     },
