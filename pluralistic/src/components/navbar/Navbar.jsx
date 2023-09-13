@@ -5,10 +5,10 @@ import { MenuData } from './MenuData';
 const Navbar = () => {
   return (
     
-    <nav className='bg-[#e23aaad9] shadow-2xl rounded-lg h-20 w-5/6 fixed mt-4 mr-8 ml-8' >
+    <nav className='bg-[#e23aaad9] shadow-2xl rounded-lg h-20 w-0.99em fixed mt-4 ml-6 mr-0 px-4' >
     <div className='flex items-center font-medium justify-around '>
         <h1>Pluralistic</h1>
-        <img src={logo} className='md:cursor-pointer h-14 rounded-full ' alt="logo"></img>
+        <img src={logo} className='md:cursor-pointer h-14 ml-4 rounded-full ' alt="logo"></img>
         <ul className='md:flex hidden uppercase items-center gap-8 font-[poppins]'>
         {MenuData.map((item, index) =>{
             return(
