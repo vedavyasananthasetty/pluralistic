@@ -1,6 +1,6 @@
 import React from 'react'
 //import "./Navbar.css";
-import logo from '../../assets/img20pl.svg';
+//import logo from '../../assets/img20pl.svg';
 //import { MenuData } from './MenuData';
 const Navbar = () => {
   return (
