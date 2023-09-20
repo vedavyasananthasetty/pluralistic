@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
-import api from './api/axiosConfig';
-import './App.css';
-import {Routes, Route} from 'react-router-dom'
+//import { useState, useEffect } from 'react';
+//import api from './api/axiosConfig';
+//import './App.css';
+//import {Routes, Route} from 'react-router-dom'
 import Home from './components/Home';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
  
@@ -19,6 +19,7 @@ function App() {
       </div>
       <div >
         <Navbar/>
+      <Home/>
        
       </div>
       
