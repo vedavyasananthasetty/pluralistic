@@ -1,12 +1,17 @@
 import React from 'react';
 import './Home.css';
 import Products from './Products';
+import Hero from './Hero';
+import Cards from './Cards';
+
 const Home = () => {
   return (
     <>
 
     <div className='home'>
-        <Products/>
+        {/* <Products/> */}
+        <Hero />
+        <Cards />
     </div>
     </>
   )
